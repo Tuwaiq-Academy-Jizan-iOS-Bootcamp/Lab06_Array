@@ -7,7 +7,7 @@ print(toDoList) // reverse
 
 toDoList.randomElement()
 print(toDoList) // random
-
+print(toDoList.shuffled()) // random
 // to find the odd number & the even
 for index in toDoList
 {
