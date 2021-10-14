@@ -7,7 +7,7 @@ print("The reversed Array = ")
 for item in myArray.reversed()
 {print(item)}
 
-print("The Random Element of Array = \(myArray.randomElement()!)")
+print("The Random Element of Array = \(myArray.shuffled())")
 
 
 print("odd and even number =")
