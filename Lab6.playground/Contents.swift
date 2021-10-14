@@ -3,6 +3,7 @@ var arr = [1,10,22,44,5,13,19,23,99,9]
 var ars = ["I love coding", "swift is the best language","coding is fun!"]
 var avg = (arr.reduce(0, +) / arr.count)
 arr.reverse()
+print(arr.shuffled())
 print(arr)
 for we in ars{
     if(we.count % 2 == 0){
