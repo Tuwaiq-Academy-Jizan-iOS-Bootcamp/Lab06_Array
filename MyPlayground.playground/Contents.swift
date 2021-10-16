@@ -1,6 +1,6 @@
 //Create an Array of "ToDoList" Use a loop to reverse the order of elements (Find an Array function to do that) then Rearrange your to do list into random order (Find an Array function to do that) then Display all elements
 var toDolist=["watching","homework","stdying","cleaning"]
-toDolist.reverse()
+toDolist.shuffle()  //or .shuffled()
 print(toDolist)
 toDolist.sort()
 print(toDolist)
